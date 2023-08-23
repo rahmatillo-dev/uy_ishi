@@ -1,13 +1,41 @@
+
 *{
+
+
+* {
+
+*{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 .container{
+=======
+
+html {
+    font-size: 62.5%;
+}
+
+
+.container {
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin-top: 36px;
+}
+
+.container{
+
     max-width: 1600px;
     margin: auto;
 }
+
 
 .footer_menu{
     margin-top: 70px;
@@ -78,5 +106,142 @@ margin-bottom: 15px;
     text-decoration: none;
     flex-direction: column;
     row-gap: 10px;
+
+
+.magazin {
+    height: 210px;
+    border-radius: 36px;
+    background: linear-gradient(45deg, #5B52A3 0%, #40B8EA 100%);
+    margin-bottom: 143px;
+}
+
+.magazin p {
+    padding-left: 182px;
+    padding-top: 45px;
+    color: var(--2, #FFF);
+    font-family: Gilroy;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+.magazin h1 {
+    padding-left: 182px;
+    padding-top: 29px;
+    color: var(--4, #FFF);
+    font-family: Gilroy;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.magazin_menu{
+    display: flex; 
+    flex-direction: column;
+    gap: 13px;
+    row-gap: 13px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    row-gap: 13px;    
+}
+
+.brand {
+    max-width: 270px;
+    border-radius: 20px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.05);
+}
+
+.brand img {
+    width: 200px;
+    height: 77px;
+    margin: 43px 41px 18px 29px;
+}
+
+.brand p {
+    margin: 0 0 30px 29px;
+    color: var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 36px;
+background: linear-gradient(45deg, #5B52A3 0%, #40B8EA 100%);
+height: 280px;
+}
+
+.question h2{
+    color: var(--4, #FFF);
+font-family: Gilroy;
+font-size: 44px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px; /* 127.273% */
+padding-left: 130px;
+
+}
+
+.question img:nth-child(3){
+   padding-right: 140px;
+}
+
+
+
+
+
+@media only screen and (max-width:1000px){
+    .card{
+        flex-wrap: wrap;
+    }
+}
+    
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:36px;
+}
+
+.nav_wrapper .nav_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.nav_item-link{
+    text-decoration: none;
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; 
+}
+
+.svyaz_btn{
+    width: 170px;
+    height: 48px;
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 100%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);    
+
 }
 
