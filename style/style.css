@@ -1,6 +1,9 @@
 
+*{
+
+
 * {
-=======
+
 *{
 
     margin: 0;
@@ -9,13 +12,16 @@
 }
 
 
+.container{
+=======
+
 html {
     font-size: 62.5%;
 }
 
 
 .container {
-=======
+
 html{
     font-size: 62.5%;
 }
@@ -29,6 +35,77 @@ body{
     max-width: 1600px;
     margin: auto;
 }
+
+
+.footer_menu{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_img {
+   margin-bottom: 165px;
+   
+}
+
+.footer_img img{
+   padding-bottom: 35px;
+}
+
+
+
+.footer_title-1{
+    list-style-type: none;
+    margin-bottom: 145px;
+    
+}
+.footer_title-2{
+    list-style-type: none;
+    margin-bottom: 177px;
+}
+.footer_title-3{
+    list-style-type: none;
+    margin-bottom: 209px;
+}
+.footer_title-1 h2{
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; 
+margin-bottom: 15px;
+}
+.footer_title-2 h2{
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+margin-bottom: 15px; 
+}
+.footer_title-3 h2{
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; 
+margin-bottom: 15px;
+}
+
+.nav_item-link{
+    color: var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+    text-decoration: none;
+    flex-direction: column;
+    row-gap: 10px;
 
 
 .magazin {
@@ -133,7 +210,7 @@ padding-left: 130px;
     }
 }
     
-=======
+
 .navbar{
     display: flex;
     align-items: center;
@@ -165,5 +242,6 @@ line-height: 16px;
     border-radius: 36px;
     background: linear-gradient(90deg, #00C97B 0%, #00D981 100%);
     box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);    
+
 }
 
