@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin-top: 36px;
+}
+
+.container{
+    max-width: 1600px;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_wrapper .nav_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.nav_item-link{
+    text-decoration: none;
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; 
+}
+
+.svyaz_btn{
+    width: 170px;
+    height: 48px;
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 100%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);    
+}
